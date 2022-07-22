@@ -1,0 +1,97 @@
+:root{
+    --maincolor : #252734;
+    --secondcolor : #FF9100;
+    --thirdcolor : #333646;
+}
+
+body{
+    background-color: var(--maincolor) !important;
+    min-height: 900px;
+    font-family : 'ubuntu', sans-serif !important; 
+}
+
+/* Navbar */
+
+.nav-link.active{
+    font-weight : 700;
+    color : var(--secondcolor) !important;
+}
+
+/* End Navbar */
+
+/* Home */
+
+#home {
+    color : white;
+    min-height : 100vm;
+}
+
+.logo {
+    font-size : 2rem;
+    color : var(--secondcolor);
+}
+
+.logo:hover{
+    color : white;
+}
+
+/* End Home */
+
+/* About */
+
+#about{
+    padding : 50px;
+    background-color : var(--thirdcolor);
+    color : white;
+}
+
+hr {
+    color : var(--secondcolor);
+}
+
+/* End About */
+
+/* Skills */
+
+#skills {
+    margin-top : 50px !important;
+    color : white;
+}
+
+#skills h3{
+    margin-top : 5px;
+    color : var(--secondcolor);
+}
+
+/* End Skills */
+
+/* Projects */
+
+#project{
+    background-color : var(--thirdcolor);
+    padding : 50px;
+    margin-top : 50px !important;
+    color : white;
+}
+
+.project-card {
+    background-color : var(--maincolor) !important;
+}
+
+span{
+    color : var(--secondcolor);
+}
+
+/* End Projects */
+
+/* Contact */
+
+#contact{
+    padding-top : 50px;
+    padding-bottom : 100px;
+    margin : auto;
+    width : 60%;
+    color : white;
+}
+
+/* End Contact */
